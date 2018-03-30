@@ -4,11 +4,12 @@
 .background td { padding: 0;          }
 .lava          { background: rgb(0, 255, 0); }
 .wall          { background: rgb(192,192,192);   }
-.coin		   { background: rgb(255,223,0);  }
+.torch		   { background: rgb(255,140,0);  }
 
 .actor  { position: absolute;  }
 .player { background: rgb(64, 64, 64); }
-
+.coin { background: rgb(241, 229, 89); }
+.bouncepad { background: rgb(160,82,45); }
 .game {
   overflow: hidden;
   max-width: 600px;
